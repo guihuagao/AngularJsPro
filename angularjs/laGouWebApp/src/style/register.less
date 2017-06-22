@@ -1,0 +1,99 @@
+.register{
+
+  background-image: url(../image/background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ position: fixed;
+  left: 0;
+  top:0;
+  right: 0;
+  bottom: 0;
+  form{
+    .mt(55);
+    .form-line {
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: content-box;
+      font-size: 0;
+      .w(300);
+      .h(40);
+      .lh(40);
+      background-color: @formBgColor;
+
+      &:first-child {
+        border-bottom: 1px solid @defaultCorlor;
+      }
+      span{
+        background-repeat: no-repeat;
+        background-position: 15px 8px;
+        background-color: @iconBgColor;
+        height: 100%;
+        .w(55);
+
+      }
+      .account{
+        background-image: url(../image/account.png);
+
+
+      }
+      .lock{
+        background-image: url(../image/lock.png);
+      }
+
+      input {
+        border-width: 0;
+        outline-width: 0;
+        .pl(10);
+        height: 100%;
+
+        font-size: 14px;
+
+       background-color: @formBgColor;
+        &::-webkit-input-placeholder {
+          color: @defaultCorlor;
+        }
+
+      }
+    }
+    }
+  .message-wrap{
+
+    .message-box{
+      border-width: 0;
+      outline-width: 0;
+      .pl(10);
+      height: 100%;
+      .w(190);
+
+      font-size: 14px;
+
+      background-color: @formBgColor;
+      &::-webkit-input-placeholder {
+        color: @defaultCorlor;
+      }
+
+    }
+
+  }
+
+
+
+    button{
+      .w(300);
+      .h(35);
+      font-size: 22px;
+      font-weight: bold;
+      &.login-btn{
+        margin-top: 60px;
+        background-color: @headBgColor;
+        color: @defaultCorlor;
+
+      }
+      &.register-btn{
+        margin-top: 20px;
+        background-color: @btnBgColor;
+        border: 1px solid @headBgColor;
+        color:@headBgColor;
+      }
+    }
+  }

@@ -1,0 +1,26 @@
+{
+  "name": "laGouWebApp",
+  "authors": [
+    "zhanglm <2475352924@qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "keywords": [
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "ui-router#^1.0.3+hybrid-2.0.0-2",
+    "angular-cookies": "^1.6.4"
+  }
+}
